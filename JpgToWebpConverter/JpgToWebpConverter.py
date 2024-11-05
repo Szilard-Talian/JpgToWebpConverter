@@ -2,7 +2,7 @@ import os
 import sys
 from PIL import Image
 
-def convert_images(directory, max_width_main=1024, max_width_thumb=600):
+def convert_images(directory, max_width_main=1024, max_width_thumb=200):
     if not os.path.exists(directory):
         print(f"Error: Directory '{directory}' does not exist.")
         sys.exit(1)
