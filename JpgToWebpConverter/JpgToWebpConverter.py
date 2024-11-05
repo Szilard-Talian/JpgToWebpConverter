@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
     directory = sys.argv[1]
     max_width_main = int(sys.argv[2]) if len(sys.argv) > 2 else 1024
-    max_width_thumb = int(sys.argv[3]) if len(sys.argv) > 3 else 600
+    max_width_thumb = int(sys.argv[3]) if len(sys.argv) > 3 else 200
 
     convert_images(directory, max_width_main, max_width_thumb)
 
